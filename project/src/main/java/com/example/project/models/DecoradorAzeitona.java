@@ -1,5 +1,5 @@
 package com.example.project.models;
-
+//DECORADOR CONCRETO: Adiciona o comportamento a partir do Decorador Abstrato
 public class DecoradorAzeitona extends DecoradoresPizza { //adiciona azeitonas ao decorator abstrato
 
     public DecoradorAzeitona(Pizza pizzaDecorada) {

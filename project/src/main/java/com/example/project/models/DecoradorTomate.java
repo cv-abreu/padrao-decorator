@@ -1,6 +1,7 @@
 package com.example.project.models;
 
-public class DecoradorTomate extends DecoradoresPizza { //adiciona tomates ao decorator abstrato
+//DECORADOR CONCRETO: Adiciona o comportamento a partir do Decorador Abstrato
+public class DecoradorTomate extends DecoradoresPizza { //EX: adiciona tomates ao decorator abstrato
 
     public DecoradorTomate(Pizza pizzaDecorada) {
         super(pizzaDecorada);
