@@ -1,6 +1,6 @@
 package com.example.project.models;
 
-public abstract class DecoradoresPizza implements Pizza {
+public abstract class DecoradoresPizza implements Pizza { //decorator abstrato, base para todos os ingredientes
     protected Pizza pizzaDecorada;
 
     public DecoradoresPizza(Pizza pizzaDecorada) {

@@ -1,10 +1,10 @@
 package com.example.project.models;
 
-public class PizzaBase implements Pizza {
+public class PizzaBase implements Pizza { //implementação dos métodos da interface
 
     @Override
     public String getDescricao() {
-        return "Pizza Simples"
+        return "Pizza Simples";
     }
 
     @Override
